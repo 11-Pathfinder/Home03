@@ -1,0 +1,16 @@
+searches:
+  - name: "SW London family home"
+    agent: foxtons
+    areas:
+      - kingston
+      - raynes-park
+      - wimbledon
+    min_price: 500000
+    max_price: 800000
+    min_bedrooms: 4
+    property_types:
+      - house
+
+email:
+  to: "you@gmail.com"
+  from: "you@gmail.com"

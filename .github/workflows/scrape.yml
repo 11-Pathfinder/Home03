@@ -1,0 +1,80 @@
+name: Property Scraper
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'   # Scrape every 4 hours
+    - cron: '0 7 * * *'     # Daily digest at 7 AM UTC
+  workflow_dispatch:
+    inputs:
+      command:
+        description: 'Command to run'
+        required: true
+        default: 'scrape+digest'
+        type: choice
+        options:
+          - scrape
+          - digest
+          - scrape+digest
+
+concurrency:
+  group: scraper
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    if: github.event.schedule == '0 */4 * * *' || (github.event_name == 'workflow_dispatch' && contains(github.event.inputs.command, 'scrape'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run scraper
+        run: python main.py scrape
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json
+          git diff --cached --quiet || git commit -m "Update seen properties [skip ci]"
+          git push
+
+  digest:
+    needs: [scrape]
+    # Run even if scrape was skipped (scheduled digest without scrape)
+    if: always() && (github.event.schedule == '0 7 * * *' || (github.event_name == 'workflow_dispatch' && contains(github.event.inputs.command, 'digest')))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Get latest state (scrape job may have pushed)
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Send digest email
+        run: python main.py digest
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+
+      - name: Commit emailed state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json
+          git diff --cached --quiet || git commit -m "Mark properties as emailed [skip ci]"
+          git push

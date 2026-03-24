@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/inspect_dump.html
+data/digest.html
+.DS_Store
