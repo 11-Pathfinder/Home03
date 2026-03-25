@@ -272,7 +272,7 @@
   "e24523420dfe": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Orme Road, Kingston, KT1",
       "price": 1000000,
@@ -290,7 +290,7 @@
   "f5a119d3ecfb": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Nightingale Mews, Kingston, KT1",
       "price": 875000,
@@ -308,7 +308,7 @@
   "101b9ea7df48": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Penrith Road, New Malden, KT3",
       "price": 925000,
@@ -326,7 +326,7 @@
   "c27981b3a3ab": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Cannon Hill Lane, Raynes Park, SW20",
       "price": 975000,
@@ -344,7 +344,7 @@
   "293d144acc22": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Byron Avenue, Motspur Park, KT3",
       "price": 1000000,
@@ -362,7 +362,7 @@
   "0a313a5931a6": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Malden Park, New Malden, KT3",
       "price": 1000000,
@@ -380,7 +380,7 @@
   "b17980777733": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Manor Drive North, New Malden, KT3",
       "price": 1000000,
@@ -398,7 +398,7 @@
   "c390b2a8a75d": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Malden Road, New Malden, KT3",
       "price": 875000,
@@ -416,7 +416,7 @@
   "b93bbacac98a": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Van Dyck Avenue, New Malden, KT3",
       "price": 875000,
@@ -434,7 +434,7 @@
   "83b684f266a1": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Motspur Park, New Malden, KT3",
       "price": 830000,
@@ -452,7 +452,7 @@
   "8e1a381fd533": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Southwood Drive, Surbiton, KT5",
       "price": 900000,
@@ -470,7 +470,7 @@
   "e13ec93d2742": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Ansell Road, Tooting Bec, SW17",
       "price": 900000,
