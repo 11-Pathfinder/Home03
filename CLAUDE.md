@@ -9,7 +9,7 @@
 
 ## Data pipeline
 ```
-config.yaml → scraper → [Property list] → dedup (seen.json) → scorer → emailer → Gmail
+config.yaml → scraper → geocode postcodes → filter to boundary → dedup (seen.json) → scorer → emailer → Gmail
 ```
 
 ## Key decisions
@@ -19,6 +19,9 @@ config.yaml → scraper → [Property list] → dedup (seen.json) → scorer →
 - Property ID = MD5 of `"{agent}:{url}"` (first 12 chars)
 - `from __future__ import annotations` required — system Python is 3.9
 - Config-driven searches — add areas/filters in `config.yaml` without code changes
+- Geo-boundary filtering via postcodes.io (free, no API key) — postcode cache in `data/postcode_cache.json`
+- Ray-casting point-in-polygon for boundary checks (pure Python, no deps)
+- Draw tool (`tools/draw_area.html`) is a full copy of Home02's schools+stations map with polygon draw mode
 
 ## Adding a new estate agent
 1. Create `scrapers/newagent.py` with class inheriting `BaseScraper`
@@ -39,6 +42,17 @@ config.yaml → scraper → [Property list] → dedup (seen.json) → scorer →
 - Concurrency group `scraper` prevents overlapping runs
 - Secret: `GMAIL_APP_PASSWORD`
 
+## Geo-boundary filtering
+- `geocoder.py` — extracts UK postcodes from addresses, batch geocodes via postcodes.io, caches in `data/postcode_cache.json`
+- `geofilter.py` — ray-casting point-in-polygon, properties that fail geocoding are included (not dropped)
+- `boundary` field in config is optional — if absent, all scraped results pass through
+- Property model has `lat`/`lng` fields populated by geocoder
+
+## Draw tool (`tools/draw_area.html`)
+- Full schools+stations map (copied from Home02) with MapLibre GL JS + mapbox-gl-draw
+- Toggle "Draw Search Area" → draw polygon → copies boundary as YAML for config.yaml
+- Open locally: `open tools/draw_area.html`
+
 ## Config format (`config.yaml`)
 ```yaml
 searches:
@@ -49,9 +63,13 @@ searches:
     max_price: 800000
     min_bedrooms: 4
     property_types: [house]
+    boundary:               # optional — geo-filter to polygon drawn on map
+      - [-0.306, 51.425]   # [lng, lat] pairs
+      - [-0.308, 51.400]
+      - [-0.273, 51.401]
 email:
   to: "you@gmail.com"
-  from: "you@gmail.com"
+  from: "sender@gmail.com"
 ```
 
 ## Dependencies
