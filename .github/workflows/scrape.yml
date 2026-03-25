@@ -16,6 +16,9 @@ on:
           - digest
           - scrape+digest
 
+permissions:
+  contents: write
+
 concurrency:
   group: scraper
   cancel-in-progress: true

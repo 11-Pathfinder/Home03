@@ -62,9 +62,9 @@ class FoxtonsScraper(BaseScraper):
 
     async def _scrape_page(self, page, url: str) -> list[Property]:
         """Scrape a single search results page."""
-        await page.goto(url, wait_until="networkidle")
-        # Wait for property cards to appear
-        await page.wait_for_timeout(3000)
+        await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        # Wait for property cards to render
+        await page.wait_for_timeout(5000)
 
         properties = []
 
