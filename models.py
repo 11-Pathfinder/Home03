@@ -18,6 +18,8 @@ class Property:
     property_type: str | None = None
     image_url: str | None = None
     description: str | None = None
+    lat: float | None = None
+    lng: float | None = None
     first_seen: str = field(default_factory=lambda: date.today().isoformat())
     id: str = ""
 

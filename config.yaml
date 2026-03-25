@@ -10,6 +10,12 @@ searches:
     min_bedrooms: 4
     property_types:
       - house
+    boundary:
+      - [-0.3061, 51.4250]
+      - [-0.3080, 51.4000]
+      - [-0.2730, 51.4010]
+      - [-0.2589, 51.4151]
+      - [-0.2817, 51.4270]
 
 email:
   to: "mohit.sanwal@gmail.com"

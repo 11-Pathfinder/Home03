@@ -34,6 +34,13 @@ async def cmd_scrape(config: dict):
         properties = await scraper.scrape(search)
         print(f"  Found {len(properties)} listings")
 
+        if "boundary" in search:
+            from geocoder import geocode_properties
+            from geofilter import filter_by_boundary
+            properties = geocode_properties(properties)
+            properties = filter_by_boundary(properties, search["boundary"])
+            print(f"  {len(properties)} within boundary")
+
         new = get_new_properties(properties, state)
         print(f"  {len(new)} new listings")
         all_new.extend(new)
