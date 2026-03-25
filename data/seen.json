@@ -268,5 +268,221 @@
       "first_seen": "2026-03-24",
       "id": "9f5585bf8916"
     }
+  },
+  "e24523420dfe": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Orme Road, Kingston, KT1",
+      "price": 1000000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt1/chpk2914262",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1771875202/chpk2914262-1.jpg",
+      "description": "Orme Road, Kingston, KT1 | 4 Beds | 1 Baths | 1,580 sq.ft | \u00a31,000,000 | 1,580 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "e24523420dfe"
+    }
+  },
+  "f5a119d3ecfb": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Nightingale Mews, Kingston, KT1",
+      "price": 875000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt1/chpk2921898",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1769001323/chpk2921898-1.jpg",
+      "description": "Nightingale Mews, Kingston, KT1 | 4 Beds | 2 Baths | 1,872 sq.ft | \u00a3875,000 | 1,872 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "f5a119d3ecfb"
+    }
+  },
+  "101b9ea7df48": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Penrith Road, New Malden, KT3",
+      "price": 925000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2853600",
+      "agent": "foxtons",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1756483183/chpk2853600-1.jpg",
+      "description": "Recommended | Penrith Road, New Malden, KT3 | 5 Beds | 2 Baths | 1,934 sq.ft | 1,934 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "101b9ea7df48"
+    }
+  },
+  "c27981b3a3ab": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Cannon Hill Lane, Raynes Park, SW20",
+      "price": 975000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/sw20/chpk2570770",
+      "agent": "foxtons",
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1772465968/chpk2570770-3.jpg",
+      "description": "Cannon Hill Lane, Raynes Park, SW20 | 6 Beds | 2 Baths | 1,889 sq.ft | \u00a3975,000 | 1,889 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "c27981b3a3ab"
+    }
+  },
+  "293d144acc22": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Byron Avenue, Motspur Park, KT3",
+      "price": 1000000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk4910587",
+      "agent": "foxtons",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1762785461/chpk4910587-1.jpg",
+      "description": "Recommended | Byron Avenue, Motspur Park, KT3 | 5 Beds | 3 Baths | 2,427 sq.ft | 2,427 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "293d144acc22"
+    }
+  },
+  "0a313a5931a6": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Malden Park, New Malden, KT3",
+      "price": 1000000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2846862",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1766481805/chpk2846862-37.jpg",
+      "description": "Malden Park, New Malden, KT3 | 4 Beds | 2 Baths | 1,499 sq.ft | \u00a31,000,000 | 1,499 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "0a313a5931a6"
+    }
+  },
+  "b17980777733": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Manor Drive North, New Malden, KT3",
+      "price": 1000000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2841579",
+      "agent": "foxtons",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1773752190/chpk2841579-1.jpg",
+      "description": "Manor Drive North, New Malden, KT3 | 5 Beds | 2 Baths | 2,176 sq.ft | \u00a31,000,000 | 2,176 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "b17980777733"
+    }
+  },
+  "c390b2a8a75d": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Malden Road, New Malden, KT3",
+      "price": 875000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2846960",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1762785390/chpk2846960-22.jpg",
+      "description": "Malden Road, New Malden, KT3 | 4 Beds | 2 Baths | 1,708 sq.ft | \u00a3875,000 | 1,708 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "c390b2a8a75d"
+    }
+  },
+  "b93bbacac98a": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Van Dyck Avenue, New Malden, KT3",
+      "price": 875000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2841727",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1773334082/chpk2841727-1.jpg",
+      "description": "Reduced | Van Dyck Avenue, New Malden, KT3 | 4 Beds | 1 Baths | 1,667 sq.ft | 1,667 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "b93bbacac98a"
+    }
+  },
+  "83b684f266a1": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Motspur Park, New Malden, KT3",
+      "price": 830000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt3/chpk2829443",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1688922601/chpk2829443-1.jpg",
+      "description": "Motspur Park, New Malden, KT3 | 4 Beds | 3 Baths | 1,754 sq.ft | \u00a3830,000 | 1,754 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "83b684f266a1"
+    }
+  },
+  "8e1a381fd533": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Southwood Drive, Surbiton, KT5",
+      "price": 900000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt5/chpk2832127",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1770285020/chpk2832127-1.jpg",
+      "description": "Recommended | Southwood Drive, Surbiton, KT5 | 4 Beds | 2 Baths | 1,901 sq.ft | 1,901 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "8e1a381fd533"
+    }
+  },
+  "e13ec93d2742": {
+    "first_seen": "2026-03-25",
+    "last_seen": "2026-03-25",
+    "emailed": false,
+    "property": {
+      "address": "Ansell Road, Tooting Bec, SW17",
+      "price": 900000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/sw17/chpk0399687",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1763408190/chpk0399687-1.jpg",
+      "description": "Recommended | Ansell Road, Tooting Bec, SW17 | 4 Beds | 2 Baths | 1,326 sq.ft | 1,326 sq.ft",
+      "first_seen": "2026-03-25",
+      "id": "e13ec93d2742"
+    }
   }
 }
