@@ -5,12 +5,12 @@ searches:
       - kingston
       - raynes-park
       - wimbledon
-    min_price: 500000
-    max_price: 800000
+    min_price: 600000
+    max_price: 1000000
     min_bedrooms: 4
     property_types:
       - house
 
 email:
-  to: "you@gmail.com"
-  from: "you@gmail.com"
+  to: "mohit.sanwal@gmail.com"
+  from: "aclaudetest23@gmail.com"
