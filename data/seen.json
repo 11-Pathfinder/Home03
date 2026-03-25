@@ -272,7 +272,7 @@
   "e24523420dfe": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Orme Road, Kingston, KT1",
       "price": 1000000,
@@ -292,7 +292,7 @@
   "f5a119d3ecfb": {
     "first_seen": "2026-03-25",
     "last_seen": "2026-03-25",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Nightingale Mews, Kingston, KT1",
       "price": 875000,
