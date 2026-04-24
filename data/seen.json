@@ -308,5 +308,25 @@
       "first_seen": "2026-03-25",
       "id": "f5a119d3ecfb"
     }
+  },
+  "e13ec93d2742": {
+    "first_seen": "2026-04-24",
+    "last_seen": "2026-04-24",
+    "emailed": false,
+    "property": {
+      "address": "Ansell Road, Tooting Bec, SW17",
+      "price": 900000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/sw17/chpk0399687",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1763408190/chpk0399687-1.jpg",
+      "description": "Recommended | Ansell Road, Tooting Bec, SW17 | 4 Beds | 2 Baths | 1,326 sq.ft | 1,326 sq.ft",
+      "lat": null,
+      "lng": null,
+      "first_seen": "2026-04-24",
+      "id": "e13ec93d2742"
+    }
   }
 }
