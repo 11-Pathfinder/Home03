@@ -312,7 +312,7 @@
   "e13ec93d2742": {
     "first_seen": "2026-04-24",
     "last_seen": "2026-04-24",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Ansell Road, Tooting Bec, SW17",
       "price": 900000,
