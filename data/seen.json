@@ -328,5 +328,25 @@
       "first_seen": "2026-04-24",
       "id": "e13ec93d2742"
     }
+  },
+  "9b5f10b8d5ac": {
+    "first_seen": "2026-04-28",
+    "last_seen": "2026-04-28",
+    "emailed": false,
+    "property": {
+      "address": "Samuel Gray Gardens, North Kingston, KT2",
+      "price": 1000000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt2/chpk2869123",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "property_type": null,
+      "image_url": "https://assets.foxtons.co.uk/w/480/1775558304/chpk2869123-1.jpg",
+      "description": "Reduced | Samuel Gray Gardens, North Kingston, KT2 | 4 Beds | 3 Baths | 1,499 sq.ft | 1,499 sq.ft",
+      "lat": 51.419050230994195,
+      "lng": -0.2904319269005848,
+      "first_seen": "2026-04-28",
+      "id": "9b5f10b8d5ac"
+    }
   }
 }
