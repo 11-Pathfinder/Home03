@@ -332,7 +332,7 @@
   "9b5f10b8d5ac": {
     "first_seen": "2026-04-28",
     "last_seen": "2026-04-28",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Samuel Gray Gardens, North Kingston, KT2",
       "price": 1000000,
