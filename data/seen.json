@@ -348,5 +348,25 @@
       "first_seen": "2026-04-28",
       "id": "9b5f10b8d5ac"
     }
+  },
+  "995475584d8f": {
+    "first_seen": "2026-05-22",
+    "last_seen": "2026-05-22",
+    "emailed": false,
+    "property": {
+      "address": "Hollybush Road, North Kingston, KT2",
+      "price": 950000,
+      "url": "https://www.foxtons.co.uk/properties-for-sale/kt2/chpk2850727",
+      "agent": "foxtons",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "property_type": null,
+      "image_url": "https://web-prod-page-assets.foxtons.co.uk/protog/72/70/582/chpk2850727/w/480/chpk2850727-1.jpg",
+      "description": "Hollybush Road, North Kingston, KT2 | 4 Beds | 1 Baths | 1,281 sq.ft | \u00a3950,000 | 1,281 sq.ft",
+      "lat": 51.419050230994195,
+      "lng": -0.2904319269005848,
+      "first_seen": "2026-05-22",
+      "id": "995475584d8f"
+    }
   }
 }
