@@ -352,7 +352,7 @@
   "995475584d8f": {
     "first_seen": "2026-05-22",
     "last_seen": "2026-05-22",
-    "emailed": false,
+    "emailed": true,
     "property": {
       "address": "Hollybush Road, North Kingston, KT2",
       "price": 950000,
